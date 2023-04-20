@@ -112,7 +112,17 @@ nmap --min-parallelism 9
 nmap --min-parallelism 8
 и тд.
 ```
-![alt text](https://i.imgur.com/wpsohy2.png)
+
+![alt text](https://i.imgur.com/vscbnSF.png)
+
+Также, для увелечения скорости можно ограничить количество проверяемых портов. 
+
+Например поставить топ 50 самых популярных: `--top-ports 50`
+
+```
+// Пресет для максимальной скорости.
+sudo nmap -T5 -n -sS --min-hostgroup 10 --min-parallelism 10 --top-ports 50
+```
 
 **PS:** Но помните что использывание `-Pn`, `-n` понижает точность сканирования.
 
