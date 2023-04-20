@@ -79,6 +79,7 @@ yandex.ru
 youtube.com
 github.com
 ```
+**PS:** Формат файла не важен, но, я использую txt.
 
 # Полезные аргументы
 ## --open
