@@ -112,6 +112,7 @@ nmap --min-parallelism 8
 и тд.
 ```
 ![alt text](https://i.imgur.com/wpsohy2.png)
+
 **PS:** Но помните что использывание `-Pn`, `-n` понижает точность сканирования.
 
 # Скрипты
